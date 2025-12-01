@@ -134,6 +134,18 @@
                 android:backgroundTint="#3F51B5"
                 app:elevation="6dp"/>
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/buttonListUsers"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="16dp"
+                android:text="VER LISTA DE USUÁRIOS"
+                android:textSize="14sp"
+                app:cornerRadius="16dp"
+                app:strokeColor="#3F51B5"
+                app:strokeWidth="2dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
